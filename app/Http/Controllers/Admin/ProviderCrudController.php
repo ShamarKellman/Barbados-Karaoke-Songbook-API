@@ -4,9 +4,9 @@ namespace App\Http\Controllers\Admin;
 
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 
-// VALIDATION: change the requests to match your own file names if you need form validation
-use App\Http\Requests\ProviderRequest as StoreRequest;
-use App\Http\Requests\ProviderRequest as UpdateRequest;
+
+use App\Http\Requests\Admin\ProviderRequest as StoreRequest;
+use App\Http\Requests\Admin\ProviderRequest as UpdateRequest;
 
 /**
  * Class ProviderCrudController

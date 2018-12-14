@@ -5,9 +5,8 @@ namespace App\Http\Controllers\Admin;
 use App\Imports\SongImport;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 
-// VALIDATION: change the requests to match your own file names if you need form validation
-use App\Http\Requests\SongRequest as StoreRequest;
-use App\Http\Requests\SongRequest as UpdateRequest;
+use App\Http\Requests\Admin\SongRequest as StoreRequest;
+use App\Http\Requests\Admin\SongRequest as UpdateRequest;
 use Illuminate\Http\Request;
 use Maatwebsite\Excel\Excel;
 
